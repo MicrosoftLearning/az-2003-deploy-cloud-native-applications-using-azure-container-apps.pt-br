@@ -842,13 +842,11 @@ Execute as etapas a seguir para configurar regras de dimensionamento de HTTP par
 
 1. Certifique-se de que seu Aplicativo de Contêiner esteja aberto no portal.
 
-1. No menu esquerdo, em Aplicativo, selecione **Revisões**.
+1. No menu do lado esquerdo, em Aplicativo, selecione **Revisões e réplicas**.
 
 1. Observe o Nome atribuído à sua revisão ativa.
 
-1. No menu esquerdo, em Aplicativo, selecione **Escala e réplicas**.
-
-1. À direita de Revisão, verifique se a revisão ativa está selecionada.
+1. No menu do lado esquerdo, em Aplicativo, selecione **Dimensionar**.
 
 1. Na parte superior da página, selecione **Editar e implantar**.
 
@@ -1038,7 +1036,7 @@ Execute as etapas a seguir para configurar o gerenciamento de revisões como mú
 
 1. No portal do Azure, abra o recurso do aplicativo de contêiner.
 
-1. No menu à esquerda, em Aplicativos, selecione **Revisões**.
+1. No menu esquerdo, em Aplicativo, selecione **Revisões e réplicas**.
 
 1. Na parte superior da página Revisões, selecione **Escolher modo de revisão**.
 
@@ -1087,13 +1085,13 @@ Execute as etapas a seguir para configurar rótulos nas revisões.
 
     - Conexões inseguras: certifique-se de que Permitido **NÃO** esteja selecionado.
 
-    - Porta de destino: insira **80**
+    - Porta de destino: insira **5000**
 
     - Modo de restrições de segurança de IP: certifique-se de que **Permitir todo o tráfego** esteja selecionado.
 
 1. Na parte inferior da página entrada, selecione **Salvar** e aguarde a conclusão da atualização.
 
-1. No menu esquerdo, em Revisões, selecione **Revisões**.
+1. No menu esquerdo, em Revisões, selecione **Revisões e réplicas**.
 
 1. Para a revisão v2, em Rótulo, insira **atualizado**
 
