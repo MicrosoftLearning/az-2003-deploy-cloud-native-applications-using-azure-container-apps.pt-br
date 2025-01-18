@@ -848,11 +848,7 @@ Execute as etapas a seguir para configurar regras de dimensionamento de HTTP par
 
 1. No menu do lado esquerdo, em Aplicativo, selecione **Dimensionar**.
 
-1. Na parte superior da página, selecione **Editar e implantar**.
-
-1. Na parte inferior da página, selecione **Avançar: Escala**.
-
-1. Configure as réplicas mín./máx. da seguinte maneira:
+1. Observe a **configuração atual da regra de escala**, defina as réplicas Mín/máx da seguinte maneira:
 
     - Defina o mínimo de réplicas: 0
     - Defina o máximo de réplicas: 2
@@ -867,11 +863,11 @@ Execute as etapas a seguir para configurar regras de dimensionamento de HTTP par
 
 1. Na página Adicionar regra de escala, selecione **Adicionar**.
 
-1. Na página Criar e implantar nova revisão, selecione **Criar**.
+1. Na página Escala, selecione **Salvar como uma nova revisão**.
 
 1. Verifique se sua nova regra de escala está sendo exibida.
 
-    Se a regra de dimensionamento não for exibida após a atualização, verifique a guia Revisões para conferir a revisão ativa atual e ajuste a Revisão selecionada na página "Dimensionamento e réplicas", se necessário.
+    Se a regra de escala não for exibida após a atualização, verifique a revisão selecionada para conferir a revisão ativa atual e ajuste a Revisão selecionada na página "Escala e réplicas", se necessário.
 
 ### Exercício 6: Configurar a integração contínua usando o Azure Pipelines
 
