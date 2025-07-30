@@ -342,13 +342,15 @@ Execute as etapas a seguir para configurar o projeto do Azure DevOps.
     - Descrição: **Projeto de código AZ2003**
     - Visibilidade: **Público**
 
-1. Selecione **Criar projeto**.
+1. Selecione **Criar**.
 
-1. No menu à esquerda da página do seu AZ2003Project, selecione **Repos**.
+1. Selecione **AZ2003Project**
 
-1. Em "Inicializar o branch principal com um README ou gitignore", selecione **Inicializar**.
+1. No menu esquerdo da página AZ2003Project, selecione **Repositórios**.
 
-1. Selecione **Clonar** e, a seguir, selecione **Clonar no VS Code**.
+1. Em Todos os Repositórios, selecione **AZ2003Project** e selecione **Procurar**.
+
+1. Selecione **Clonar no VS Code**.
 
 1. Em "Esse site está tentando abrir a caixa de diálogo do Visual Studio Code", selecione **Abrir**.
 
@@ -801,7 +803,7 @@ Conclua as etapas a seguir para configurar o aplicativo de contêiner para auten
 
 1. No portal do Azure, abra o Aplicativo de Contêiner que você criou.
 
-1. Em Configurações, selecione **Identidade**.
+1. Em Segurança, selecione **Identidade**.
 
 1. Selecione a guia para **Atribuído pelo usuário**.
 
@@ -1065,7 +1067,7 @@ A Entrada precisa estar habilitada antes de você poder configurar rótulos de r
 
 Execute as etapas a seguir para configurar rótulos nas revisões.
 
-1. No menu esquerdo, em Configurações, selecione **Entrada**.
+1. No menu esquerdo, em Rede, selecione **Entrada**.
 
 1. Se a entrada não estiver habilitada, selecione **Habilitado**.
 
