@@ -456,6 +456,13 @@ Conclua as etapas a seguir para criar uma imagem do Docker e efetuar push da ima
 
 1. No menu à esquerda, para abrir o modo de exibição do Docker, selecione Docker.
 
+1. Antes de se conectar ao registro, verifique se você está autenticado corretamente com o Azure no Visual Studio Code:
+
+    - Na barra de Atividades, selecione **Azure** (o ícone do Azure).
+    - Na exibição do Azure, expanda **CONTAS E LOCATÁRIOS**.
+    - Verifique se sua conta do Azure está listada e selecionada (marcada). Se não estiver, selecione sua conta para autenticação.
+    - Se precisar entrar, selecione **Entrar no Azure** e conclua o processo de autenticação.
+
 1. No modo de exibição DOCKER, em Registros, selecione **Conectar Registro** e, a seguir, selecione **Registro de Contêiner do Azure**.
 
 1. No modo de exibição DOCKER, expanda **Azure** e, a seguir, selecione **Permitir**.
